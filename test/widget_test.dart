@@ -8,7 +8,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:magnetic_event/main.dart';
+import 'package:magnetic_event/main_common.dart';
 import 'package:magnetic_event/providers/game_provider.dart';
 import 'package:magnetic_event/services/shared_preference_service.dart';
 import 'package:magnetic_event/utils/ad_helper.dart';

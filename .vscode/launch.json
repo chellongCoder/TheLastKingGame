@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "TheLastKingGame (dev)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev",
+                "-t",
+                "lib/main_dev.dart"
+            ],
+        },
+        {
+            "name": "TheLastKingGame (stg)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_stg.dart"
+        },
+        {
+            "name": "TheLastKingGame (prod)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart"
+        },
+        {
+            "name": "TheLastKingGame",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "TheLastKingGame (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "TheLastKingGame (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

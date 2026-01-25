@@ -1,0 +1,21 @@
+android {
+    flavorDimensions += "flavor-type"
+
+    productFlavors {
+        dev {
+            dimension "flavor-type"
+            applicationId "com.thelastking.game.dev"
+            resValue "string", "app_name", "LastKing Dev"
+        }
+        stg {
+            dimension "flavor-type"
+            applicationId "com.thelastking.game.stg"
+            resValue "string", "app_name", "LastKing Staging"
+        }
+        prod {
+            dimension "flavor-type"
+            applicationId "com.thelastking.game"
+            resValue "string", "app_name", "The Last King"
+        }
+    }
+}
